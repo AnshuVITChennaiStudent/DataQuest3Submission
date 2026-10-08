@@ -145,7 +145,6 @@ def build_initial_state(seed_products: list[dict[str, Any]]) -> SystemState:
 # Seed data used by the dashboard when no other source is supplied.
 DEFAULT_SEED_PRODUCTS: list[dict[str, Any]] = [
     {
-        #TO DO:make it dynamic
         "product_sku": "DQPS-001",
         "product_name": "Aurora Hydrating Serum",
         "price": 48.00,
